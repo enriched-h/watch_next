@@ -19,5 +19,6 @@ def watch_next(planet_hulk_description):
              if similarity > max_similarity:
                  max_similarity = similarity
                  next_movie = " ".join(fields[0:2])
-
+                    
+    print(next_movie)
     return next_movie
